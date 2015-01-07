@@ -1,8 +1,8 @@
 CC= g++
-all : small_python
+all : small-python
 
-small_python: intobject.o stringobject.o dictobject.o
-	$(CC) -o small_python small-python.c intobject.o stringobject.o dictobject.o
+small-python: intobject.o stringobject.o dictobject.o
+	$(CC) -o small-python small-python.c intobject.o stringobject.o dictobject.o
 	rm -f small-python.o intobject.o stringobject.o dictobject.o
 
 intobject.o:intobject.c  
