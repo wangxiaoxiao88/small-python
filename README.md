@@ -1,10 +1,10 @@
 ## small-python
 
-###介绍
+### 介绍
 基于[Python源码剖析](http://book.douban.com/subject/3117898/)第6章内容编写。实现了Python语言的的PyIntObject、PyStringObject和
 PyDictObject对象，实现了加法操作和输出操作。
 
-###Usage
+### Usage
 * `git clone git@github.com:wangxiaoxiao88/small-python.git` 下载源码
 * `make` 编译
 * `./small-python` 运行
